@@ -1,0 +1,34 @@
+.code-block {
+  color: #ffffff;
+  overflow-y: auto;
+  margin: auto;
+  width: 75%;
+  background-color: #22303c;
+  font-size: small;
+  font-family: Monaco, Consolas, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
+}
+.keyword {
+  color: #6699ee;
+}
+.string {
+  color: #ffaa77;
+}
+.variable-object {
+  color: #88ccee;
+}
+.method {
+  color: #f5f58c;
+}
+.executable {
+  color: #bb55dd;
+}
+.property {
+  color: #88ccee;
+}
+.type {
+  color: #8ca;
+}
+.comment {
+  color: #4a6;
+}

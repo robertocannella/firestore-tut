@@ -1,0 +1,17 @@
+<p>documents works!</p>
+
+<ul>
+    <li class="text" *ngFor="let item of items$ | async">
+        {{ item.name }} {{ item.id }}
+    </li>
+</ul>
+<hr>
+<div>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let i of itemsCollectionObs$ | async">
+            {{ i.name }} {{ i.id }}
+        </li>
+    </ul>
+</div>
+<i class="bi bi-plus"></i>
+`

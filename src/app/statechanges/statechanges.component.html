@@ -1,0 +1,16 @@
+<h1>Working with StateChanges()</h1>
+<p> What is it?
+    Returns an Observable of the most recent changes as a DocumentChangesAction[] 
+</p>
+    <ul>
+        <li>['added']</li>
+        <li>['modified']</li>
+        <li>['removed']</li>
+    </ul>
+
+<ul>
+    <li *ngFor="let deposit of deposits$ | async">
+        {{ deposit.description }} for {{ deposit.amount }}
+
+    </li>
+</ul>

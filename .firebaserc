@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-demo-cf0b6": {
+      "hosting": {
+        "firestore-tut": [
+          "fir-demo-cf0b6"
+        ]
+      }
+    }
+  }
+}
